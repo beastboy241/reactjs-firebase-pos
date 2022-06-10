@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Nav, NavItem, NavLink } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSignOutAlt, faBell } from "@fortawesome/free-solid-svg-icons";
-import profile from "./assets/image/profile.png";
+import profile2 from "./assets/image/profile2.png";
 import "./App.css";
 import POS from "./pages/pos/";
 import { BrowserRouter } from "react-router-dom";
@@ -23,12 +23,12 @@ function App() {
                 <Nav className=" ml-auto">
                   <NavItem>
                     <div className="profile">
-                      <div className="name">Sigit Prasetya</div>
+                      <div className="name">Loc Nguyen</div>
                       <div className="image">
                         <img
                           alt="profile-photos"
                           className="rounded-circle"
-                          src={profile}
+                          src={profile2}
                           height="40px"
                         />
                       </div>
