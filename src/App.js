@@ -17,7 +17,7 @@ function App() {
           <Container fluid={true}>
             <Row>
               <Col sm="2" className="text-center header-col-brand">
-                POS REACT
+                POS using Firebase and React JS
               </Col>
               <Col sm="10" className="header-col-nav">
                 <Nav className=" ml-auto">
